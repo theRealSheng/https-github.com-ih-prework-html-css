@@ -1,0 +1,103 @@
+
+*{
+  box-sizing: border-box;
+  font-family: "Helvetica";
+}
+
+body {
+
+}
+
+.whole {
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(225, 232, 237);
+  margin-left: 10px;
+  padding: 1px 18px 20px 40px;
+  width: 1000px;
+  height: 318px;
+}
+
+#profile {
+  position: relative;
+  float: left;
+  margin-top: -108px;
+  margin-left: 2px;
+}
+
+#nickName {
+  position: relative;
+  float: left;
+  font-size: 1.9rem;
+  margin-left: 70px;
+  margin-top: -104px;
+}
+
+#logo {
+  float: left;
+  margin-left: 29px;
+}
+.validate {
+  position: absolute;
+  float: left;
+  margin-top: -105px;
+  margin-left: -275px;
+  opacity: 1;
+}
+.button {
+  position: absolute;
+  float: right;
+  margin-left: -225px;
+  margin-top: 50px;
+  border: 1.5px solid rgb(85, 172, 238);
+  padding: 13px 24.5px 13px 25px;
+  align-content: center;
+}
+
+#compLogo {
+  position: relative;
+  float: left;
+  top: 3px;
+}
+
+.follow {
+  color: rgb(85, 172, 238);
+  font-size: 29px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.nick2 {
+  color: rgb(104, 109, 129);
+}
+
+#tweeting {
+  position: absolute;
+  float: center;
+  margin-top: -180px;
+  margin-left: 50px;
+}
+
+.first{
+  margin-top: 5px;
+  margin-bottom: -12px;
+  font-size: 2rem;
+}
+
+.second{
+  margin-bottom: 27px;
+  font-size: 1.75rem;
+  color:rgb(105, 120, 130);
+}
+
+.reply {
+  margin-right: 40px;
+}
+
+.numberTweets {
+  font-size: 1.70rem;
+  color: rgb(101, 116, 127);
+}
+
+.heart {
+  margin-left: 35px;
+}
